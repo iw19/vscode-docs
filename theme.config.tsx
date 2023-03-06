@@ -73,10 +73,6 @@ const config: DocsThemeConfig = {
   darkMode: true,
   nextThemes: {
     defaultTheme: "system",
-  },
-  body: {
-    background: "red",
-    color: "green"
   }
 
   docsRepositoryBase: "https://github.com/iw17/vscode",
