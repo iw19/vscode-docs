@@ -5,7 +5,7 @@ import { DocsThemeConfig, useConfig } from "nextra-theme-docs"
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <span style={{ marginLeft: ".4em", fontWeight: 800 }}>VS Code群文档</span>
+      <span style={{ marginLeft: ".4em", fontWeight: 800 }}>VS Code 群文档</span>
     </>
   ),
   head: function Head() {
