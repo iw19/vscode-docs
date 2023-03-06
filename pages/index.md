@@ -19,10 +19,3 @@
 
 - [最新版本](https://code.visualstudio.com/download)
 - [历史版本](https://code.visualstudio.com/updates)
-
-<style>
-    body {
-        background-color: red;
-        color: green;
-    }
-</style>
