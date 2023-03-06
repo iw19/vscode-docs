@@ -1,0 +1,20 @@
+{
+    "index": {
+        "head": "介绍",
+        "title": "VS Code 群文档"
+    },
+    "OfficialDocs": "官方文档",
+    "tutorials": "配置环境",
+    "about": {
+      "title": "关于",
+      "type": "page"
+    },
+    "Links": "友链与友群",
+    "FAQ": "常见问题",
+    "contact": {
+      "title": "Contact ↗",
+      "type": "page",
+      "href": "https://github.com/iw17",
+      "newWindow": true
+    }
+}
