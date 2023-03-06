@@ -1,3 +1,10 @@
+<style>
+    body {
+        background-color: red;
+        color: green;
+    }
+</style>
+
 # 妮可 VS Code 交流群文档&链接合集
 
 ## 写在前面
