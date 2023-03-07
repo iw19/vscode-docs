@@ -1,0 +1,25 @@
+a:link {
+    color: dodgerblue;
+}
+a:visited {
+    color: darkviolet;
+}
+a:active {
+    color: deeppink;
+}
+body {
+    background-color: lightblue;
+    color: tomato;
+}
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: lightgreen;
+        color: darkgoldenrod;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: lightyellow;
+        color:greenyellow;
+    }
+}
