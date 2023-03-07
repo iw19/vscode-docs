@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       <style jsx global>{`
         body {
-          background: ${ isDark ? "darkblue" : "lightgreen" };
+          background: ${ isDark ? "red" : "lightgreen" };
           text-color: ${ isDark ? "lightblue" : "red" };
         }
       `}</style>
