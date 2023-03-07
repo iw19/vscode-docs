@@ -7,19 +7,15 @@ a:visited {
 a:active {
     color: deeppink;
 }
-body {
-    background-color: lightblue;
-    color: tomato;
+:root {
+    --background: transparent;
+    --foreground: contrast(var(--background))
 }
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: lightgreen;
-        color: darkgoldenrod;
-    }
+[data-theme='light'] {
+    --background: lightgreen;
+    --foreground: blue;
 }
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: lightyellow;
-        color:greenyellow;
-    }
+[data-theme='dark'] {
+    --background: #114;
+    --foreground: #514;
 }
