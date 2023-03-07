@@ -2,11 +2,12 @@ import type { AppProps } from "next/app"
 import { useState, useEffect } from "react"
 
 function checkLightDarkStatus(): boolean | undefined {
-    try {
-        return window.matchMedia('(prefers-color-scheme: dark)').matches
-    } catch (_) {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches)
+        return true
+    else if (window.matchMedia('(prefers-color-scheme: light)').matches)
+        return false
+    else
         return undefined
-    }
 }
 
 export default function MyApp({ Component, pageProps }: AppProps) {
