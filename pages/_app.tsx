@@ -12,7 +12,7 @@ function checkLightDarkStatus(): boolean | undefined {
 
 export default function MyApp({ Component, pageProps }: AppProps) {
 //  const [isDark, setIsDark] = useState(true)
-  const { isDark, setIsDark } = useState(checkLightDarkStatus())
+  const isDark = checkLightDarkStatus()
   return (
     <>
       <Component {...pageProps} />
