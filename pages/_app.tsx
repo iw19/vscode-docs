@@ -1,17 +1,26 @@
 import type { AppProps } from "next/app"
-import { useState } from "react"
+import { useState, useEffect } from "react"
+
+function checkLightDarkStatus(): boolean | undefined {
+    try {
+        return window.matchMedia('(prefer-color-scheme: dark)').matches
+    } catch (_) {
+        return undefined
+    }
+}
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-  const [isDark, setIsDark] = useState(true)
+//  const [isDark, setIsDark] = useState(true)
+  const isDark = checkLightDarkStatus()
   return (
     <>
       <Component {...pageProps} />
       <style jsx global>{`${
-        window.matchMedia('(prefer-colors-scheme: light)').matches ?
-          "body { background-color: brown; color: red; }" :
-        window.matchMedia('(prefer-color-scheme: dark)').matches ?
-          "body { background-color: lightgreen; color: magenta; }" :
-          "body { background-color: transparent; color: contrast(background-color); }"
+        isDark === undefined ?
+            "body { background-color: lightgreen; color: red; }" :
+        isDark ?
+            "body { background-color: #030; color: greenyellow; }" :
+            "body { background-color: pink; color: yellow; }"
       }`}</style>
     </>
   )
