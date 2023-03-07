@@ -3,7 +3,7 @@ import { useState, useEffect } from "react"
 
 function checkLightDarkStatus(): boolean | undefined {
     try {
-        return window.matchMedia('(prefer-color-scheme: dark)').matches
+        return window.matchMedia('(prefers-color-scheme: dark)').matches
     } catch (_) {
         return undefined
     }
