@@ -11,11 +11,3 @@ a:active {
     --background: transparent;
     --foreground: contrast(var(--background))
 }
-[data-theme='light'] {
-    --background: lightgreen;
-    --foreground: blue;
-}
-[data-theme='dark'] {
-    --background: #114;
-    --foreground: #514;
-}
