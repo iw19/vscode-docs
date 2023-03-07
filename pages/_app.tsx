@@ -6,12 +6,13 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <style jsx global>{`
-        body {
-          background: ${ isDark ? "red" : "lightgreen" };
-          text-color: ${ isDark ? "lightblue" : "red" };
-        }
-      `}</style>
+      <style jsx global>{`${
+        window.matchMedia('(prefer-colors-scheme: light)').matches ?
+          "body { background-color: brown; color: red; }" :
+        window.matchMedia('(prefer-color-scheme: dark)').matches ?
+          "body { background-color: lightgreen; color: magenta; }" :
+          "body { background-color: transparent; color: contrast(background-color); }"
+      }`}</style>
     </>
   )
 }
