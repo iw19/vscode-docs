@@ -8,6 +8,6 @@ a:active {
     color: deeppink;
 }
 :root {
-    --background: transparent;
-    --foreground: contrast(var(--background))
+    --background: lightblue;
+    --foreground: greenyellow;
 }
