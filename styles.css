@@ -1,0 +1,25 @@
+a:link {
+    color: dodgerblue;
+}
+a:visited {
+    color: darkviolet;
+}
+a:active {
+    color: deeppink;
+}
+body {
+    background-color: transparent;
+    color: contrast(background-color);
+}
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111;
+        color: #aaa;
+    }
+}
