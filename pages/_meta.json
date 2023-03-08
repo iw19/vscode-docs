@@ -4,9 +4,14 @@
     "tutorials": "配置环境",
     "friends": "友链与友群",
     "faq": "常见问题",
+    "main-page": {
+      "title": "VS Code 群文档",
+      "type": "page",
+      "href": "/"
+    },
     "about": {
       "title": "关于",
-      "type": "page"
+      "type": "page",
     },
     "contact": {
       "title": "联系 ↗",
