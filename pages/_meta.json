@@ -1,6 +1,6 @@
 {
     "index": {
-        "head": "介绍",
+        "head": "写在前面",
         "title": "VS Code 群文档"
     },
     "OfficialDocs": "官方文档",
@@ -12,7 +12,7 @@
     "Links": "友链与友群",
     "FAQ": "常见问题",
     "contact": {
-      "title": "Contact ↗",
+      "title": "联系我们 ↗",
       "type": "page",
       "href": "https://github.com/iw17",
       "newWindow": true
