@@ -7,9 +7,9 @@
 
 ## 依赖
 
- - [Nextra](https://nextra.site) 及其附带的
-  - [Nextra-docs-theme](https://nextra.site/docs/docs-theme/start)
-  - [Next.js](https://nextjs.org)
+- [Nextra](https://nextra.site) 及其附带的
+    - [Nextra-docs-theme](https://nextra.site/docs/docs-theme/start)
+    - [Next.js](https://nextjs.org)
 
 ## 内容组织
 
