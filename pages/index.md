@@ -2,11 +2,7 @@
 
 为保证你和群友有愉快的水群体验，请阅读以下守则：
 
-0. VS Code 
- - [最新版本](https://code.visualstudio.com/downloads)
- - [历史版本](https://code.visualstudio.com/updates)
- - [官方文档](https://code.visualstudio.com/docs)
-链接是安全的。其他下载 VS Code 的链接安全性无法保证。如果有人在群里提供其他链接，请在聊天框打出“？”并发送；如果两分钟后链接仍未消失，请立刻退出聊天界面，五分钟后重新进入；若链接还存在，请向群主或管理员求助。
+0. VS Code [最新版本](https://code.visualstudio.com/downloads)、[历史版本](https://code.visualstudio.com/updates)和[官方文档](https://code.visualstudio.com/docs)链接是安全的。其他下载 VS Code 的链接安全性无法保证。如果有人在群里提供其他链接，请在聊天框打出“？”并发送；如果两分钟后链接仍未消失，请立刻退出聊天界面，五分钟后重新进入；若链接还存在，请向群主或管理员求助。
 
 1. VS Code 的图标是蓝色的。有形状相似的紫色图标的软件不是 VS Code，但使用紫色软件时遇到问题也可以在本群提问或求助。
 

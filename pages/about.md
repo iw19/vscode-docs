@@ -15,8 +15,8 @@
 ## 感谢
 
 - Pull Request by
- - [Alioth](https://github.com/EpsUMa)
+    - [Alioth](https://github.com/EpsUMa)
 
 - Issues by
- - [fenglielie](https://github.com/fenglielie)
- - [StuCjk](https://github.com/StuCjk)
+    - [fenglielie](https://github.com/fenglielie)
+    - [StuCjk](https://github.com/StuCjk)

@@ -48,9 +48,10 @@ const config: DocsThemeConfig = {
     //  }
     //}
     const title_map = new Map([
-        ["/OfficialDocs", "官方文档"],
-        ["/Links", "友链与友群"],
-        ["/FAQ", "常见问题"],
+        ["/official-docs", "官方文档"],
+        ["/friends", "友链与友群"],
+        ["/faq", "常见问题"],
+        ["/about", "关于"],
     ])
     if (asPath === "/") {
         return {
