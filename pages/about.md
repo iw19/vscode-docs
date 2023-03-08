@@ -10,7 +10,7 @@
 
 ## 关于本站
 
-之前有群友建议把群文件的`vscode链接合集.pdf`做成网站，但 17 当时在摸鱼，直到 2023 年 3 月 4 日，17 建了个 [GitHub 仓库](https://github.com/iw17/vscode)，做了个静态 html 页面，托管到 [Netlify](https://netlify.com) 上，放到自己的域名下作为群文档。次日凌晨，[Alioth](https://github.com/EpsUMa) 给本站仓库 PR，用 [nextra](https://nextra.site) 重构后页面变得美观许多。
+之前有群友建议把群文件的`vscode链接合集.pdf`做成网站，但 17 当时在摸鱼，直到 2023 年 3 月 4 日，17 建了个 [GitHub 仓库](https://github.com/iw17/vscode)，做了个静态 html 页面，托管到 [Netlify](https://netlify.com) 上，放到自己的域名下作为群文档。次日凌晨，[Alioth](https://github.com/EpsUMa) 给本站仓库 PR，用 [Nextra](https://nextra.site) 重构后页面变得美观许多。
 
 ## 感谢
 
