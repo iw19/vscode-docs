@@ -2,12 +2,12 @@ html, body, div {
     color: contrast(background-color);
 }
 @media (prefers-color-scheme: light) {
-    html, body, div {
+    main {
         color: black;
     }
 }
 @media (prefers-color-scheme: dark) {
-    html, body, div {
+    main {
         color: #aaa;
     }
 }
