@@ -74,9 +74,6 @@ const config: DocsThemeConfig = {
   nextThemes: {
     defaultTheme: "system",
   },
-  darkTheme: {
-    color: "#aaa",
-  },
 
   docsRepositoryBase: "https://github.com/iw17/vscode/tree/main",
   footer: {
