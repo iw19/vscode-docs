@@ -75,7 +75,9 @@ const config: DocsThemeConfig = {
     defaultTheme: "system",
   },
 
-  docsRepositoryBase: "https://github.com/iw17/vscode/tree/main",
+  docsRepositoryBase: {
+    link: "https://github.com/iw17/vscode/tree/main",
+  },
   footer: {
     text: (
       <span>
