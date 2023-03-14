@@ -72,6 +72,9 @@ const config: DocsThemeConfig = {
   },
   darkMode: true,
   nextThemes: {
+    darkTheme: {
+        color: "#aaa",
+    }
     defaultTheme: "system",
   },
 
