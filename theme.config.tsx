@@ -38,9 +38,6 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://github.com/iw17/vscode/issues",
   },
-  edit: {
-    link: "https://github.com/iw17/tree/main",
-  },
   useNextSeoProps() {
     const { asPath } = useRouter()
     const vscDoc = "VS Code 群文档"
