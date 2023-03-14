@@ -12,8 +12,7 @@ const config: DocsThemeConfig = {
     const { asPath, defaultLocale, locale } = useRouter()
     const { frontMatter } = useConfig()
     const vscDoc = "VS Code 群文档"
-    const url =
-      "https://vscode.iw17.cc" +
+    const url = "https://vscode.iw17.cc" +
       (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
 
     return (
@@ -29,7 +28,7 @@ const config: DocsThemeConfig = {
           content={frontMatter.description || vscDoc}
         />
         <link rel="icon" type="image/png" href="/favicons/vscode.png" />
-        <meta name="theme-color" content="#000" />
+        <meta name="theme-color" content="black" />
       </>
     )
   },
@@ -38,6 +37,9 @@ const config: DocsThemeConfig = {
   },
   chat: {
     link: "https://github.com/iw17/vscode/issues",
+  },
+  edit: {
+    link: "https://github.com/iw17/tree/main",
   },
   useNextSeoProps() {
     const { asPath } = useRouter()
@@ -76,7 +78,7 @@ const config: DocsThemeConfig = {
     defaultTheme: "system",
   },
 
-  docsRepositoryBase: "https://github.com/iw17/vscode",
+  docsRepositoryBase: "https://github.com/iw17/vscode/tree/main",
   footer: {
     text: (
       <span>
